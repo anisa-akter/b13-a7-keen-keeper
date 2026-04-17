@@ -96,7 +96,7 @@ export default function FriendDetailsClient({ friend }) {
               Edit
             </button>
           </div>
-          <p className="mt-4 text-2xl text-slate-600">
+          <p className="mt-4  text-slate-600">
             Connect every <span className="font-bold text-[#1f2b3f]">{friend.goal} days</span>
           </p>
         </section>
