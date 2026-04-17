@@ -1,0 +1,30 @@
+[
+  {
+    "id": "seed-1",
+    "friendId": 2,
+    "type": "call",
+    "title": "Call with Tanmoy Saha",
+    "date": "2026-04-15"
+  },
+  {
+    "id": "seed-2",
+    "friendId": 5,
+    "type": "text",
+    "title": "Text with Maria Akter",
+    "date": "2026-04-14"
+  },
+  {
+    "id": "seed-3",
+    "friendId": 1,
+    "type": "video",
+    "title": "Video with Aisha Rahman",
+    "date": "2026-04-10"
+  },
+  {
+    "id": "seed-4",
+    "friendId": 7,
+    "type": "call",
+    "title": "Call with Farhana Islam",
+    "date": "2026-04-07"
+  }
+]
