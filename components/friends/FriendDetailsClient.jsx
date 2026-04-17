@@ -47,7 +47,7 @@ export default function FriendDetailsClient({ friend }) {
 
             <div className="mt-3 flex flex-wrap justify-center gap-2">
               {friend.tags.map((tag) => (
-                <span key={tag} className="badge badge-outline border-slate-300 text-slate-500">
+                <span key={tag} className="badge badge-outline bg-green-100 border-slate-300 text-slate-500">
                   {tag}
                 </span>
               ))}
