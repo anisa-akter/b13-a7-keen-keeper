@@ -75,22 +75,22 @@ export default function FriendDetailsClient({ friend }) {
       <div className="space-y-4">
         <section className="grid gap-3 sm:grid-cols-3">
           <article className="rounded-xl border border-slate-200 bg-white p-5 shadow-sm">
-            <p className="text-4xl font-extrabold text-[#1f5a49]">{friend.days_since_contact}</p>
+            <p className="text-2xl font-extrabold text-[#1f5a49]">{friend.days_since_contact}</p>
             <p className="text-slate-500">Days Since Contact</p>
           </article>
           <article className="rounded-xl border border-slate-200 bg-white p-5 shadow-sm">
-            <p className="text-4xl font-extrabold text-[#1f5a49]">{friend.goal}</p>
+            <p className="text-2xl font-extrabold text-[#1f5a49]">{friend.goal}</p>
             <p className="text-slate-500">Goal (Days)</p>
           </article>
           <article className="rounded-xl border border-slate-200 bg-white p-5 shadow-sm">
-            <p className="text-4xl font-extrabold text-[#1f5a49]">{formatReadableDate(friend.next_due_date)}</p>
+            <p className="text-2xl font-extrabold text-[#1f5a49]">{formatReadableDate(friend.next_due_date)}</p>
             <p className="text-slate-500">Next Due</p>
           </article>
         </section>
 
         <section className="rounded-xl border border-slate-200 bg-white p-5 shadow-sm">
           <div className="flex items-center justify-between gap-3">
-            <h2 className="text-3xl font-bold text-[#1f5a49]">Relationship Goal</h2>
+            <h2 className="text-xl font-bold text-[#1f5a49]">Relationship Goal</h2>
             <button className="btn btn-sm border-slate-200 bg-slate-100 text-slate-700 hover:bg-slate-200">
               <Pencil size={14} />
               Edit
@@ -102,7 +102,7 @@ export default function FriendDetailsClient({ friend }) {
         </section>
 
         <section className="rounded-xl border border-slate-200 bg-white p-5 shadow-sm">
-          <h2 className="text-3xl font-bold text-[#1f5a49]">Quick Check-In</h2>
+          <h2 className="text-xl font-bold text-[#1f5a49]">Quick Check-In</h2>
           <div className="mt-4 grid gap-3 sm:grid-cols-3">
             {quickActions.map((action) => {
               const Icon = action.icon;
