@@ -46,7 +46,7 @@ export default function Navbar() {
             </ul>
           </div>
 
-          <Link href="/" className="btn btn-ghost px-2 text-2xl   text-[#243746]">
+          <Link href="/" className="btn btn-ghost px-2 text-2xl   text-[#243746] hover:text-white">
             <span><span className="font-black">Keen</span>Keeper</span>
           </Link>
         </div>
