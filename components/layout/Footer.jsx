@@ -1,4 +1,5 @@
 import { MessageSquareMore, Phone, Video } from "lucide-react";
+import Image from "next/image";
 
 export default function Footer() {
   return (
@@ -7,20 +8,39 @@ export default function Footer() {
         <div className="flex flex-col items-center text-center">
           <h2 className="text-5xl font-extrabold tracking-tight">KeenKeeper</h2>
           <p className="mt-5 max-w-2xl text-sm text-emerald-100/90">
-            Your personal shelf of meaningful connections. Browse, tend, and nurture
-            the relationships that matter most.
+            Your personal shelf of meaningful connections. Browse, tend, and
+            nurture the relationships that matter most.
           </p>
 
           <h3 className="mt-8 text-2xl font-semibold">Social Links</h3>
           <div className="mt-4 flex items-center gap-3">
-            <button className="btn btn-circle btn-sm border-none bg-white text-[#243746] hover:bg-slate-100" aria-label="Call Link">
-              <Phone size={16} />
+            <button
+              className="btn btn-circle btn-sm border-none bg-white text-[#243746] hover:bg-slate-100"
+              aria-label="Call Link"
+            >
+              <Image
+                src="/instagram.png"
+                alt="Instagram"
+                width={30}
+                height={30}
+              />
             </button>
-            <button className="btn btn-circle btn-sm border-none bg-white text-[#243746] hover:bg-slate-100" aria-label="Text Link">
-              <MessageSquareMore size={16} />
+            <button
+              className="btn btn-circle btn-sm border-none bg-white text-[#243746] hover:bg-slate-100"
+              aria-label="Text Link"
+            >
+              <Image
+                src="/facebook.png"
+                alt="Facebook"
+                width={30}
+                height={30}
+              />
             </button>
-            <button className="btn btn-circle btn-sm border-none bg-white text-[#243746] hover:bg-slate-100" aria-label="Video Link">
-              <Video size={16} />
+            <button
+              className="btn btn-circle btn-sm border-none bg-white text-[#243746] hover:bg-slate-100"
+              aria-label="Video Link"
+            >
+              <Image src="/twitter.png" alt="Twitter" width={30} height={30} />
             </button>
           </div>
         </div>
