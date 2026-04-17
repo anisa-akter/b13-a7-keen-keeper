@@ -21,13 +21,13 @@ export default function FriendCard({ friend }) {
 
         <div className="mt-3 flex flex-wrap justify-center gap-2">
           {friend.tags.map((tag) => (
-            <span key={tag} className="badge badge-outline border-slate-300 text-xs text-slate-500">
+            <span key={tag} className="badge badge-outline rounded-full border-0 bg-green-100 text-[#344d3f] font-semibold text-xs">
               {tag}
             </span>
           ))}
         </div>
 
-        <span className={`badge mt-3 border-0 text-white ${statusStyles[friend.status]}`}>
+        <span className={`badge mt-3 border-0 rounded-full text-white ${statusStyles[friend.status]}`}>
           {friend.status}
         </span>
       </div>

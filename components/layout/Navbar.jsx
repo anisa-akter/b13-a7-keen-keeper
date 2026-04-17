@@ -35,7 +35,7 @@ export default function Navbar() {
                   <li key={item.href}>
                     <Link
                       href={item.href}
-                      className={isActive ? "active bg-success text-white" : "text-slate-700"}
+                      className={isActive ? "active bg-[#] text-white" : "text-slate-700"}
                     >
                       <Icon size={14} />
                       {item.label}
@@ -46,7 +46,7 @@ export default function Navbar() {
             </ul>
           </div>
 
-          <Link href="/" className="btn btn-ghost px-2 text-2xl   text-[#243746] hover:text-white">
+          <Link href="/" className="btn btn-ghost px-2 text-2xl   text-[#243746] hover:text-white hover:bg-[#1f5a49] ">
             <span><span className="font-black">Keen</span>Keeper</span>
           </Link>
         </div>
@@ -63,7 +63,7 @@ export default function Navbar() {
                     href={item.href}
                     className={`btn btn-sm border transition-colors ${
                       isActive
-                        ? "btn-success text-white border-[#1f5a49]"
+                        ? "bg-[#1f5a49] text-white border-[#1f5a49]"
                         : "btn-ghost border-transparent text-slate-600 hover:border-slate-200 hover:bg-slate-100"
                     }`}
                   >

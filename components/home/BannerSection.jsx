@@ -10,7 +10,7 @@ export default function BannerSection() {
         Your personal shelf of meaningful connections. Browse, tend, and nurture
         the <br/> relationships that matter most.
       </p>
-      <button className="btn btn-success mt-6 text-white">
+      <button className="btn btn-success mt-6 bg-[#1f5a49] text-white">
         <UserPlus size={16} />
         Add a Friend
       </button>
