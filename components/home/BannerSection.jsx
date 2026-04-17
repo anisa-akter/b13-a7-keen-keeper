@@ -8,7 +8,7 @@ export default function BannerSection() {
       </h1>
       <p className="mx-auto mt-4 max-w-2xl text-slate-500">
         Your personal shelf of meaningful connections. Browse, tend, and nurture
-        the relationships that matter most.
+        the <br/> relationships that matter most.
       </p>
       <button className="btn btn-success mt-6 text-white">
         <UserPlus size={16} />

@@ -46,8 +46,8 @@ export default function Navbar() {
             </ul>
           </div>
 
-          <Link href="/" className="btn btn-ghost px-2 text-2xl font-black tracking-tight text-[#243746]">
-            KeenKeeper
+          <Link href="/" className="btn btn-ghost px-2 text-2xl   text-[#243746]">
+            <span><span className="font-black">Keen</span>Keeper</span>
           </Link>
         </div>
 
